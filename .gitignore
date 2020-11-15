@@ -1,11 +1,7 @@
-login/.DS_Store
-
 login/application/cache/*
 !login/application/cache/index.html
-
 login/application/logs/*
 !login/application/logs/index.html
-
 !login/application/*/.htaccess
 
 
