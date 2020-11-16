@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <meta name="author" content="BaseRoot"/>
-    <meta name="robots" content="noindex, nofollow">
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
     <title>Management Dashboard | <?php echo config_item('company_name') ?></title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>

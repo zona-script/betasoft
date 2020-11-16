@@ -1,7 +1,7 @@
 
-<div class="alert alert-info">Your Wallet
-    have
-    <strong><?php echo config_item('currency') . $this->db_model->select('balance', 'wallet', array('userid' => $this->session->user_id)) ?></strong>
+<div class="alert alert-info">Your Wallet have
+    <strong>
+        <?php echo config_item('currency') . $this->db_model->select('balance', 'wallet', array('userid' => $this->session->user_id)) ?></strong>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php echo site_url('member/topup_wallet') ?>"
                                                                           class="btn btn-xs btn-warning">Add
         More Fund &rarr;</a>

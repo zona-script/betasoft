@@ -1,6 +1,5 @@
 
-<link rel="stylesheet" type="text/css"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <h2 align="center">Receipt</h2>
 <div class="row">
     <div class="col-sm-2"></div>
