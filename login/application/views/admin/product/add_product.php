@@ -1,5 +1,3 @@
-<?php
-?>
 <div class="row">
     <?php echo form_open_multipart() ?>
     <div class="form-group">
@@ -103,7 +101,7 @@
                        value="<?php echo set_value('roi_limit') ?>">
             </div>
 
-            <!--- END ----------------->
+            
         </div>
     </div>
 <?php } ?>
@@ -112,4 +110,4 @@
         <input type="submit" class="btn btn-success" value="Create" onclick="this.value='Creating..'">
     </div>
     <?php echo form_close() ?>
-</div>
+</div> 
