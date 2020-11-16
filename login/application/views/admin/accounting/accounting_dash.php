@@ -1,6 +1,4 @@
-<?php
 
-?>
 <div class="row">
     <div class="col-sm-12">
         Hi, <?php echo $this->session->name ?><br/>
