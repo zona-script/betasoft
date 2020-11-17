@@ -32,3 +32,33 @@
     </div>
     <?php echo form_close() ?>
 </div>
+<div class="row table-responsive">
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>SN</th>
+            <th>Category Title</th>
+            <th>Parent</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+        <?php
+        $sn = 1;
+        foreach ($cat as $e) { ?>
+            <tr>
+                <td><?php echo $sn++; ?></td>
+                <td><?php echo $e['cat_name']; ?></td>
+                <td><?php echo $this->db_model->select('cat_name', 'product_categories', array('id' => $e['parent_cat'])); ?></td>
+                <td><?php echo strip_tags($e['description']); ?></td>
+                <td>
+                    <a href="<?php echo site_url('admin/category/edit/' . $e['id']); ?>" class="btn btn-info btn-xs">Edit</a>
+                    <a onclick="return confirm('Are you sure you want to delete this Category ?')"
+                       href="<?php echo site_url('admin/category/remove/' . $e['id']); ?>"
+                       class="btn btn-danger btn-xs">Delete</a>
+                </td>
+            </tr>
+        <?php } ?>
+    </table>
+    <div class="pull-right">
+        <?php echo $this->pagination->create_links(); ?>
+    </div>
+</div>
