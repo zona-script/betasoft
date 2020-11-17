@@ -1,5 +1,4 @@
-<?php
-?>
+
 <div class="table-responsive">
     <table class="table table-striped table-bordered">
         <tr>
