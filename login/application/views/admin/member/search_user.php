@@ -1,3 +1,4 @@
+
 <div class="row">
     <?php echo form_open('users/search') ?>
     <div class="alert alert-info">Fill any or all fields as per your need.</div>

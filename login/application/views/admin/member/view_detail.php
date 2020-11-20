@@ -1,3 +1,4 @@
+
 <a href="<?php echo site_url('users/edit_user/' . $data->id) ?>" class="btn btn-xs btn-danger">Edit Member</a>
 <div class="row view">
     <div class="col-sm-6"><strong>Member Name: </strong> <?php echo $data->name ?></div>
