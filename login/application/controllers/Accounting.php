@@ -14,7 +14,6 @@ class Accounting extends CI_Controller
         $this->load->library('pagination');
     }
 
-
     public function add_invoice()
     {
         $invoice_name = $this->input->post('invoice_name');
@@ -113,7 +112,6 @@ class Accounting extends CI_Controller
         $this->load->view('admin/accounting/print_invoice.php', $data);
     }
 
-
     public function purchase_view($id)
     {
         $data['result']     = $this->db_model->select_multi('*', 'purchase', array('id' => $id));
@@ -138,7 +136,6 @@ class Accounting extends CI_Controller
         $data['layout']     = 'accounting/transactionlogs.php';
         $this->load->view('admin/base', $data);
     }
-
 
     public function remove_tlog($id)
     {
@@ -169,7 +166,6 @@ class Accounting extends CI_Controller
         redirect('accounting/purchase');
     }
 
-
     public function invoices()
     {
         $config['base_url']   = site_url('accounting/invoices');
@@ -184,7 +180,6 @@ class Accounting extends CI_Controller
         $data['breadcrumb'] = 'Invoices';
         $data['layout']     = 'accounting/invoices.php';
         $this->load->view('admin/base', $data);
-
     }
 
     public function invoice_add_fund()

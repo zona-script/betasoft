@@ -5,6 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Class Site
  */
+
 class Survey extends CI_Controller
 {
     public function __construct()

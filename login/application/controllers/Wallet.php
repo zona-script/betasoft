@@ -7,6 +7,7 @@ class Wallet extends CI_Controller
     /**
      * Income Section for Admin Only
      */
+    
     public function __construct()
     {
         parent::__construct();

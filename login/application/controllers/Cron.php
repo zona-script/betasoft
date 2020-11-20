@@ -1,1 +1,3 @@
-encrypted file
+<?php
+
+?>

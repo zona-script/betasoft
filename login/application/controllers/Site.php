@@ -28,6 +28,7 @@ class Site extends CI_Controller
     public function register()
     {
         $this->load->model('plan_model');
+        
         /*************************************************************
          * We'll register user here using epin or payment gateway
          *

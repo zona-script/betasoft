@@ -28,6 +28,7 @@ class Franchisee extends CI_Controller
         redirect(site_url('site/franchisee'));
     }
 
+
     // CORE MEMBER PARTS HERE NOW ######STARTS :
 
 

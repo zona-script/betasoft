@@ -99,7 +99,6 @@ class Ads extends CI_Controller
         }
     }
 
-
     public function remove($id)
     {
         if ($this->login->check_session() == FALSE) {

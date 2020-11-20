@@ -21,7 +21,6 @@ class Adm_franchisee extends CI_Controller
         $this->load->view('admin/base', $data);
     }
 
-
     public function add_fran()
     {
         $this->form_validation->set_rules('name', 'Franchisee Name', 'trim|required');

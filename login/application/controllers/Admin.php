@@ -36,7 +36,6 @@ class Admin extends CI_Controller
         redirect(site_url('site/admin'));
     }
 
-
     public function setting()
     {
         $this->form_validation->set_rules('name', 'Name', 'trim|required');

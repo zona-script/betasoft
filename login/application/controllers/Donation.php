@@ -36,7 +36,6 @@ class Donation extends CI_Controller
 
     }
 
-
     public function edit_pack($id)
     {
         if ($this->login->check_session() == false) {

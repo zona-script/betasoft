@@ -160,6 +160,7 @@ class Gateway extends CI_Controller
             }
         }
     }
+    
 
     public function status($pg)
     {

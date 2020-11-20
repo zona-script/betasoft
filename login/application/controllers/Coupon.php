@@ -274,5 +274,6 @@ class Coupon extends CI_Controller
         $this->session->set_flashdata("common_flash", "<div class='alert alert-success'>Coupon requested for use. Support Team will update you soon.</div>");
         redirect(site_url('coupon/unused'));
     }
+    
 
 }

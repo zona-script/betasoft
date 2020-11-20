@@ -30,6 +30,7 @@ class Member extends CI_Controller
         $this->session->set_flashdata('site_flash', '<div class="alert alert-info">You have been logged out !</div>');
         redirect(site_url('site/login'));
     }
+    
 
     // CORE MEMBER PARTS HERE NOW ############################################################ STARTS :
 

@@ -49,7 +49,6 @@ $config[\'mailtype\'] = \'html\';
             file_put_contents(APPPATH . 'config/email.php', $file);
             $this->session->set_flashdata('common_flash', '<div class="alert alert-success">Settings Updated Successfully</div>');
             redirect('setting/main_screen');
-
         }
     }
 
